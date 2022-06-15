@@ -1,0 +1,57 @@
+@use "../custom" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.theme-switcher {
+  justify-content: end;
+  align-items: center;
+
+  @include media-breakpoint-down(md) {
+    justify-content: space-between;
+  }
+
+  // Theme Switcher
+  input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+
+  label {
+    display: inline-block;
+    position: relative;
+    text-indent: -9999px;
+    height: 24px;
+    width: 48px;
+    margin-left: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s ease-out background-color;
+
+    @include media-breakpoint-down(sm) {
+      height: 24px * 0.8;
+      width: 48px * 0.8;
+    }
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      z-index: 9999;
+      top: 50%;
+      right: 5%;
+      transform: translateY(-50%);
+      transition: 0.5s ease;
+
+      @include media-breakpoint-down(sm) {
+        height: 18px * 0.8;
+        width: 18px * 0.8;
+      }
+    }
+  }
+}

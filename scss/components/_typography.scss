@@ -1,0 +1,52 @@
+@use "../custom" as *;
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+// Header Section
+.header-title {
+  font-size: 1.7rem;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 1.5rem;
+  }
+}
+
+.main-caption {
+  font-size: 14px;
+
+  @include media-breakpoint-down(sm) {
+    font-size: 12px;
+  }
+}
+
+// Followers Section
+.card-body {
+  &-followers-num {
+    font-size: 3.5rem;
+    letter-spacing: -2px;
+  }
+
+  &-followers-fo-sub {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+
+  &-followers-up,
+  &-followers-down,
+  &-overview-up,
+  &-overview-down {
+    font-size: 0.7rem;
+  }
+}
+
+// Overview Section
+.overview-title {
+  font-size: 1.5rem;
+}
+
+.card-body-overview-num {
+  font-size: 2rem;
+}
