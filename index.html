@@ -39,12 +39,12 @@
   </head>
   <body data-theme="light">
     <!-- Header Section -->
-    <header class="header mt-2">
+    <header class="header mt-4">
       <div class="container">
         <div class="row pt-4">
           <div class="col-12 col-md-8">
             <h1 class="header-title fw-bold pt-1">Social Media Dashboard</h1>
-            <h4 class="main-caption fw-bold">Total Followers:23,004</h4>
+            <h2 class="main-caption fw-bold">Total Followers:23,004</h2>
           </div>
           <div class="col-12 col-md-4 d-flex theme-switcher">
             <h4 class="main-caption mode-caption fw-bold mb-0">Dark Mode</h4>
@@ -54,270 +54,285 @@
         </div>
       </div>
     </header>
+    <main>
+      <section class="followers">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gx-4 gy-3">
+            <!-- Fb -->
+            <div class="col text-center">
+              <div class="card card-followers card-fb">
+                <div class="card-body rounded-bottom">
+                  <h3 class="card-body-username mb-3 mt-1">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <span class="main-caption fw-bold ms-2 pt-1">@nathanf</span>
+                  </h3>
+                  <div class="display-3 card-body-followers-num fw-bold">
+                    1987
+                  </div>
+                  <div class="display-5 card-body-followers-fo-sub mt-1 mb-4">
+                    Followers
+                  </div>
+                  <div class="card-body-followers-up fw-bold">
+                    <i class="bi bi-caret-up-fill pe-1"></i>12 Today
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Twi -->
+            <div class="col text-center">
+              <div class="card card-followers card-twi">
+                <div class="card-body rounded-bottom">
+                  <h3 class="card-body-username mb-3 mt-1">
+                    <i class="fa-brands fa-twitter"></i>
+                    <span class="main-caption fw-bold ms-2 pt-1">@nathanf</span>
+                  </h3>
+                  <div class="display-3 card-body-followers-num fw-bold">
+                    1044
+                  </div>
+                  <div class="display-5 card-body-followers-fo-sub mt-1 mb-4">
+                    Followers
+                  </div>
+                  <div class="card-body-followers-up fw-bold">
+                    <i class="bi bi-caret-up-fill pe-1"></i>99 Today
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Ins -->
+            <div class="col text-center">
+              <div class="card card-followers card-ins">
+                <div class="card-body rounded-bottom">
+                  <h3 class="card-body-username mb-3 mt-1">
+                    <svg class="ins-icon">
+                      <use class="ins-icon" href="#ins-icon"></use>
+                    </svg>
+                    <span class="main-caption fw-bold ms-2 pt-1">
+                      @realnathanf
+                    </span>
+                  </h3>
+                  <div class="display-3 card-body-followers-num fw-bold">
+                    11k
+                  </div>
+                  <div class="display-5 card-body-followers-fo-sub mt-1 mb-4">
+                    Followers
+                  </div>
+                  <div class="card-body-followers-up fw-bold">
+                    <i class="bi bi-caret-up-fill pe-1"></i>1099 Today
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Ytb -->
+            <div class="col text-center">
+              <div class="card card-followers card-ytb">
+                <div class="card-body rounded-bottom">
+                  <h3 class="card-body-username mb-3 mt-1">
+                    <svg class="ytb-icon">
+                      <use href="#ytb-icon"></use>
+                    </svg>
+                    <span class="main-caption fw-bold ms-2 pt-1"
+                      >Nathan F.</span
+                    >
+                  </h3>
+                  <div class="display-3 card-body-followers-num fw-bold">
+                    8239
+                  </div>
+                  <div class="display-5 card-body-followers-fo-sub mt-1 mb-4">
+                    Subscribers
+                  </div>
+                  <div class="card-body-followers-down fw-bold">
+                    <i class="bi bi-caret-down-fill pe-1"></i>144 Today
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    <section class="followers">
-      <div class="container">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gx-4 gy-3">
-          <!-- Fb -->
-          <div class="col text-center">
-            <div class="card card-followers card-fb">
-              <div class="card-body rounded-bottom">
-                <h3 class="card-body-username mb-3 mt-1">
-                  <i class="fa-brands fa-facebook-square"></i>
-                  <div class="main-caption fw-bold ms-2 pt-1">@nathanf</div>
-                </h3>
-                <div class="display-3 card-body-followers-num fw-bold">
-                  1987
-                </div>
-                <div class="display-5 card-body-followers-fo-sub mt-1 mb-4">
-                  Followers
-                </div>
-                <div class="card-body-followers-up fw-bold">
-                  <i class="bi bi-caret-up-fill pe-1"></i>12 Today
-                </div>
-              </div>
-            </div>
+      <!-- Overview Section -->
+      <section class="overview">
+        <div class="container mt-5">
+          <div class="row">
+            <h2 class="overview-title fw-bold mb-4">Overview - Today</h2>
           </div>
-          <!-- Twi -->
-          <div class="col text-center">
-            <div class="card card-followers card-twi">
-              <div class="card-body rounded-bottom">
-                <h3 class="card-body-username mb-3 mt-1">
-                  <i class="fa-brands fa-twitter"></i>
-                  <div class="main-caption fw-bold ms-2 pt-1">@nathanf</div>
-                </h3>
-                <div class="display-3 card-body-followers-num fw-bold">
-                  1044
-                </div>
-                <div class="display-5 card-body-followers-fo-sub mt-1 mb-4">
-                  Followers
-                </div>
-                <div class="card-body-followers-up fw-bold">
-                  <i class="bi bi-caret-up-fill pe-1"></i>99 Today
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Ins -->
-          <div class="col text-center">
-            <div class="card card-followers card-ins">
-              <div class="card-body rounded-bottom">
-                <h3 class="card-body-username mb-3 mt-1">
-                  <svg class="ins-icon">
-                    <use class="ins-icon" href="#ins-icon"></use>
-                  </svg>
-                  <div class="main-caption fw-bold ms-2 pt-1">@realnathanf</div>
-                </h3>
-                <div class="display-3 card-body-followers-num fw-bold">11k</div>
-                <div class="display-5 card-body-followers-fo-sub mt-1 mb-4">
-                  Followers
-                </div>
-                <div class="card-body-followers-up fw-bold">
-                  <i class="bi bi-caret-up-fill pe-1"></i>1099 Today
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Ytb -->
-          <div class="col text-center">
-            <div class="card card-followers card-ytb">
-              <div class="card-body rounded-bottom">
-                <h3 class="card-body-username mb-3 mt-1">
-                  <svg class="ytb-icon">
-                    <use href="#ytb-icon"></use>
-                  </svg>
-                  <div class="main-caption fw-bold ms-2 pt-1">Nathan F.</div>
-                </h3>
-                <div class="display-3 card-body-followers-num fw-bold">
-                  8239
-                </div>
-                <div class="display-5 card-body-followers-fo-sub mt-1 mb-4">
-                  Subscribers
-                </div>
-                <div class="card-body-followers-down fw-bold">
-                  <i class="bi bi-caret-down-fill pe-1"></i>144 Today
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Overview Section -->
-    <section class="overview">
-      <div class="container mt-5">
-        <div class="row">
-          <h2 class="overview-title fw-bold mb-4">Overview - Today</h2>
-        </div>
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gx-4 gy-3">
-          <!-- Fb -->
-          <div class="col">
-            <div class="card card-overview">
-              <div class="card-body rounded px-4 pb-3">
-                <div class="card-body-text d-flex justify-content-between">
-                  <div class="card-body-title main-caption fw-bold">
-                    Page Views
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gx-4 gy-3">
+            <!-- Fb -->
+            <div class="col">
+              <div class="card card-overview">
+                <div class="card-body rounded px-4 pb-3">
+                  <div class="card-body-text d-flex justify-content-between">
+                    <div class="card-body-title main-caption fw-bold">
+                      Page Views
+                    </div>
+                    <i class="fa-brands fa-facebook-square"></i>
                   </div>
-                  <i class="fa-brands fa-facebook-square"></i>
-                </div>
-                <div
-                  class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
-                >
-                  <div class="card-body-overview-num fw-bold d-4">87</div>
-                  <div class="card-body-overview-up fw-bold pt-4">
-                    <i class="bi bi-caret-up-fill pe-1"></i>3%
+                  <div
+                    class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
+                  >
+                    <div class="card-body-overview-num fw-bold d-4">87</div>
+                    <div class="card-body-overview-up fw-bold pt-4">
+                      <i class="bi bi-caret-up-fill pe-1"></i>3%
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card card-overview">
-              <div class="card-body rounded px-4 pb-3">
-                <div class="card-body-text d-flex justify-content-between">
-                  <div class="card-body-title main-caption fw-bold">Likes</div>
-                  <i class="fa-brands fa-facebook-square"></i>
-                </div>
-                <div
-                  class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
-                >
-                  <div class="card-body-overview-num fw-bold d-4">52</div>
-                  <div class="card-body-overview-down fw-bold pt-4">
-                    <i class="bi bi-caret-down-fill pe-1"></i>2%
+            <div class="col">
+              <div class="card card-overview">
+                <div class="card-body rounded px-4 pb-3">
+                  <div class="card-body-text d-flex justify-content-between">
+                    <div class="card-body-title main-caption fw-bold">
+                      Likes
+                    </div>
+                    <i class="fa-brands fa-facebook-square"></i>
+                  </div>
+                  <div
+                    class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
+                  >
+                    <div class="card-body-overview-num fw-bold d-4">52</div>
+                    <div class="card-body-overview-down fw-bold pt-4">
+                      <i class="bi bi-caret-down-fill pe-1"></i>2%
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Ins -->
-          <div class="col">
-            <div class="card card-overview">
-              <div class="card-body rounded px-4 pb-3">
-                <div class="card-body-text d-flex justify-content-between">
-                  <div class="card-body-title main-caption fw-bold">Likes</div>
-                  <svg class="ins-icon">
-                    <use class="ins-icon" href="#ins-icon"></use>
-                  </svg>
-                </div>
-                <div
-                  class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
-                >
-                  <div class="card-body-overview-num fw-bold d-4">5462</div>
-                  <div class="card-body-overview-up fw-bold pt-4">
-                    <i class="bi bi-caret-up-fill pe-1"></i>2257%
+            <!-- Ins -->
+            <div class="col">
+              <div class="card card-overview">
+                <div class="card-body rounded px-4 pb-3">
+                  <div class="card-body-text d-flex justify-content-between">
+                    <div class="card-body-title main-caption fw-bold">
+                      Likes
+                    </div>
+                    <svg class="ins-icon">
+                      <use class="ins-icon" href="#ins-icon"></use>
+                    </svg>
+                  </div>
+                  <div
+                    class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
+                  >
+                    <div class="card-body-overview-num fw-bold d-4">5462</div>
+                    <div class="card-body-overview-up fw-bold pt-4">
+                      <i class="bi bi-caret-up-fill pe-1"></i>2257%
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card card-overview">
-              <div class="card-body rounded px-4 pb-3">
-                <div class="card-body-text d-flex justify-content-between">
-                  <div class="card-body-title main-caption fw-bold">
-                    Profile Views
+            <div class="col">
+              <div class="card card-overview">
+                <div class="card-body rounded px-4 pb-3">
+                  <div class="card-body-text d-flex justify-content-between">
+                    <div class="card-body-title main-caption fw-bold">
+                      Profile Views
+                    </div>
+                    <svg class="ins-icon">
+                      <use class="ins-icon" href="#ins-icon"></use>
+                    </svg>
                   </div>
-                  <svg class="ins-icon">
-                    <use class="ins-icon" href="#ins-icon"></use>
-                  </svg>
-                </div>
-                <div
-                  class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
-                >
-                  <div class="card-body-overview-num fw-bold d-4">52k</div>
-                  <div class="card-body-overview-up fw-bold pt-4">
-                    <i class="bi bi-caret-up-fill pe-1"></i>1375%
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Twitter -->
-          <div class="col">
-            <div class="card card-overview">
-              <div class="card-body rounded px-4 pb-3">
-                <div class="card-body-text d-flex justify-content-between">
-                  <div class="card-body-title main-caption fw-bold">
-                    Retweets
-                  </div>
-                  <i class="fa-brands fa-twitter"></i>
-                </div>
-                <div
-                  class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
-                >
-                  <div class="card-body-overview-num fw-bold d-4">117</div>
-                  <div class="card-body-overview-up pt-4 fw-bold">
-                    <i class="bi bi-caret-up-fill pe-1"></i>303%
+                  <div
+                    class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
+                  >
+                    <div class="card-body-overview-num fw-bold d-4">52k</div>
+                    <div class="card-body-overview-up fw-bold pt-4">
+                      <i class="bi bi-caret-up-fill pe-1"></i>1375%
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card card-overview">
-              <div class="card-body rounded px-4 pb-3">
-                <div class="card-body-text d-flex justify-content-between">
-                  <div class="card-body-title main-caption fw-bold">Likes</div>
-                  <i class="fa-brands fa-twitter"></i>
-                </div>
-                <div
-                  class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
-                >
-                  <div class="card-body-overview-num fw-bold d-4">507</div>
-                  <div class="card-body-overview-up pt-4 fw-bold">
-                    <i class="bi bi-caret-up-fill pe-1"></i>553%
+            <!-- Twitter -->
+            <div class="col">
+              <div class="card card-overview">
+                <div class="card-body rounded px-4 pb-3">
+                  <div class="card-body-text d-flex justify-content-between">
+                    <div class="card-body-title main-caption fw-bold">
+                      Retweets
+                    </div>
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div
+                    class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
+                  >
+                    <div class="card-body-overview-num fw-bold d-4">117</div>
+                    <div class="card-body-overview-up pt-4 fw-bold">
+                      <i class="bi bi-caret-up-fill pe-1"></i>303%
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <!-- Ytb -->
-          <div class="col">
-            <div class="card card-overview">
-              <div class="card-body rounded px-4 pb-3">
-                <div class="card-body-text d-flex justify-content-between">
-                  <div class="card-body-title main-caption fw-bold">Likes</div>
-                  <svg class="ytb-icon">
-                    <use href="#ytb-icon"></use>
-                  </svg>
-                </div>
-                <div
-                  class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
-                >
-                  <div class="card-body-overview-num fw-bold d-4">107</div>
-                  <div class="card-body-overview-down pt-4 fw-bold">
-                    <i class="bi bi-caret-down-fill pe-1"></i>19%
+            <div class="col">
+              <div class="card card-overview">
+                <div class="card-body rounded px-4 pb-3">
+                  <div class="card-body-text d-flex justify-content-between">
+                    <div class="card-body-title main-caption fw-bold">
+                      Likes
+                    </div>
+                    <i class="fa-brands fa-twitter"></i>
+                  </div>
+                  <div
+                    class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
+                  >
+                    <div class="card-body-overview-num fw-bold d-4">507</div>
+                    <div class="card-body-overview-up pt-4 fw-bold">
+                      <i class="bi bi-caret-up-fill pe-1"></i>553%
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col">
-            <div class="card card-overview">
-              <div class="card-body rounded px-4 pb-3">
-                <div class="card-body-text d-flex justify-content-between">
-                  <div class="card-body-title main-caption fw-bold">
-                    Total Views
+            <!-- Ytb -->
+            <div class="col">
+              <div class="card card-overview">
+                <div class="card-body rounded px-4 pb-3">
+                  <div class="card-body-text d-flex justify-content-between">
+                    <div class="card-body-title main-caption fw-bold">
+                      Likes
+                    </div>
+                    <svg class="ytb-icon">
+                      <use href="#ytb-icon"></use>
+                    </svg>
                   </div>
-                  <svg class="ytb-icon">
-                    <use href="#ytb-icon"></use>
-                  </svg>
+                  <div
+                    class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
+                  >
+                    <div class="card-body-overview-num fw-bold d-4">107</div>
+                    <div class="card-body-overview-down pt-4 fw-bold">
+                      <i class="bi bi-caret-down-fill pe-1"></i>19%
+                    </div>
+                  </div>
                 </div>
-                <div
-                  class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
-                >
-                  <div class="card-body-overview-num fw-bold d-4">1407</div>
-                  <div class="card-body-overview-down pt-4 fw-bold">
-                    <i class="bi bi-caret-down-fill pe-1"></i>12%
+              </div>
+            </div>
+            <div class="col">
+              <div class="card card-overview">
+                <div class="card-body rounded px-4 pb-3">
+                  <div class="card-body-text d-flex justify-content-between">
+                    <div class="card-body-title main-caption fw-bold">
+                      Total Views
+                    </div>
+                    <svg class="ytb-icon">
+                      <use href="#ytb-icon"></use>
+                    </svg>
+                  </div>
+                  <div
+                    class="card-body-num d-flex justify-content-between mt-3 align-text-bottom"
+                  >
+                    <div class="card-body-overview-num fw-bold d-4">1407</div>
+                    <div class="card-body-overview-down pt-4 fw-bold">
+                      <i class="bi bi-caret-down-fill pe-1"></i>12%
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
     <!-- Attribution Section -->
     <section class="attribution py-4 mb-4">

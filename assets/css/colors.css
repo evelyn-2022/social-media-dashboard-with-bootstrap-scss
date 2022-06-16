@@ -48,6 +48,11 @@ input#switcher:checked + label.switch-btn::after {
 }
 
 /* Background Color */
+html,
+body {
+  height: 100%;
+}
+
 body {
   height: 100%;
   background: linear-gradient(
